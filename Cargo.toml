@@ -1,0 +1,15 @@
+[package]
+name = "net_tests"
+version = "0.0.1"
+authors = ["The Servo Project Developers"]
+license = "MPL-2.0"
+
+[lib]
+name = "net_tests"
+path = "lib.rs"
+doctest = false
+
+[dependencies]
+msg2 = {path = "components/msg2"}
+net2 = {path = "components/net2"}
+url = {version = "1.2"}

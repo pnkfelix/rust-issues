@@ -1,0 +1,19 @@
+[package]
+name = "msg2"
+version = "0.0.1"
+authors = ["The Servo Project Developers"]
+license = "MPL-2.0"
+publish = false
+
+[lib]
+name = "msg2"
+path = "lib.rs"
+
+[dependencies]
+serde = "0.8"
+serde_derive = "0.8"
+
+[dependencies.webrender_traits]
+git = "https://github.com/servo/webrender"
+default_features = false
+features = ["serde_derive"]

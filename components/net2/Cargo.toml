@@ -1,0 +1,14 @@
+[package]
+name = "net2"
+version = "0.0.1"
+authors = ["The Servo Project Developers"]
+license = "MPL-2.0"
+publish = false
+
+[lib]
+name = "net2"
+path = "lib.rs"
+
+[dependencies]
+ipc-channel = "0.5"
+net_traits = {path = "../net_traits"}
