@@ -13,3 +13,6 @@ doctest = false
 msg2 = {path = "components/msg2"}
 net2 = {path = "components/net2"}
 url = {version = "1.2"}
+
+[replace]
+"url:1.2.2" = {path = "deps/url"}
