@@ -10,5 +10,5 @@ name = "net2"
 path = "lib.rs"
 
 [dependencies]
-ipc-channel = "0.5"
+ipc-channel = {path = "../../deps/ipc-channel"}
 net_traits = {path = "../net_traits"}
